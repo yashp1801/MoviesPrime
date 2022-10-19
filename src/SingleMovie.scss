@@ -1,0 +1,55 @@
+.singlemovie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #141414;
+  .loading{
+          color: #fff;
+          font-size: 3rem;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: flex-start;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    .image {
+      height: 500px;
+      flex: 1;
+
+      img {
+        height: 500px;
+        object-fit: cover;
+      }
+    }
+    .content {
+      flex: 1;
+      h1 {
+        font-size: 1.3rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        color: #141414;
+      }
+      p {
+        font-size: 1.2rem;
+        width: 90%;
+        margin-top: 1rem;
+      }
+      .imdb {
+        background-color: #141414;
+        padding: 5px;
+        border-radius: 5px;
+        color: #fff;
+        width: max-content;
+      }
+      .title {
+        font-size: 2rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
