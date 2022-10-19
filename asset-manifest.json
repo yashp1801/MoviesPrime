@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MoviesPrime/static/css/main.27dfacdc.css",
+    "main.js": "/MoviesPrime/static/js/main.c7cd9674.js",
+    "index.html": "/MoviesPrime/index.html",
+    "main.27dfacdc.css.map": "/MoviesPrime/static/css/main.27dfacdc.css.map",
+    "main.c7cd9674.js.map": "/MoviesPrime/static/js/main.c7cd9674.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27dfacdc.css",
+    "static/js/main.c7cd9674.js"
+  ]
+}
